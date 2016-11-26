@@ -1,22 +1,13 @@
 <?php
 /*
-Plugin Name: Cena bez DPH a konec slevy v detailu produktu
-Plugin URI: http://webstudionovetrendy.eu/
-Description: Zobrazí cenu bez DPH a konec akce pod SKU v detailu produktu
-Version: 160523
-Author: Webstudio Nove Trendy
-Author URI: http://webstudionovetrendy.eu/
-License: License:     GPL2
-
-Cena bez DPH a konec slevy v detailu produktu is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 2 of the License, or
-any later version.
-
-Cena bez DPH a konec slevy v detailu produktu is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+* Plugin Name: Cena bez DPH a konec slevy v detailu produktu
+* Plugin URI: http://webstudionovetrendy.eu/
+* Description: Zobrazí cenu bez DPH a konec akce pod SKU v detailu produktu
+* Version: 160523
+* Author: Webstudio Nove Trendy
+* Author URI: http://webstudionovetrendy.eu/
+* License: GPL2
+* GitHub Plugin URI: https://github.com/novetrendy/Price-without-VAT-for-woocommerce
 */
 /* 5.5.2016 - Přidána podpora pro varianty produktů
 * 7.5.2016 - Opravena chyba pokud není zadána u produktu cena - dělení nulou - division zero error
