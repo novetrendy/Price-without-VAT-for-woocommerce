@@ -1,0 +1,8 @@
+/*.title-description{font-weight:300;font-size:0.7em;}
+.delivery--date{font-weight:600;padding:5px;font-size:20px;background-color:#404040;color:#FFF;line-height:2.1em;}
+.free--shipping--catalog{font-weight:100;padding:5px;background-color:#EF3F32;color:#FFF;font-size: 14px;}
+.free--shipping{font-weight:600;padding:5px;font-size:20px;background-color:#EF3F32;color:#FFF;line-height:2.1em;}/
+
+.sticky-free-shipping{font-weight:300;padding:5px;font-size:15px;background-color:#EF3F32;color:#FFF;line-height:2.1em;}
+.sdz{position:absolute;top:188px;left:0;z-index:5;width:100%;}                                                    */
+.ui--content-box-title-text .price { display: none; }

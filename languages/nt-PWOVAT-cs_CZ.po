@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Cena bez DPH a konec slevy v detailu produktu\n"
+"POT-Creation-Date: 2016-11-21 08:22+0100\n"
+"PO-Revision-Date: 2016-11-21 08:30+0100\n"
+"Last-Translator: Novetrendy <info@novetrendy.eu>\n"
+"Language-Team: Novetrendy <info@novetrendy.eu>\n"
+"Language: cs_CZ\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: price-wo-vat.php\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: admin/class-price-wo-vat-admin.php:20
+msgid "Settings Price Without VAT, New Badge, Discount Badge and End Sale Date"
+msgstr ""
+"Nastavení - Cena bez DPH, Štítek nové zboží, Štítek sleva a sleva končí"
+
+#: admin/class-price-wo-vat-admin.php:21 price-wo-vat.php:81
+msgid "Price Without VAT, New Badge, Discount Badge and End Sale Date"
+msgstr "Cena bez DPH, Štítek nové zboží, Štítek sleva a sleva končí"
+
+#: admin/class-price-wo-vat-admin.php:55 price-wo-vat.php:74
+msgid "WebStudio New Trends"
+msgstr "Webstudio Nové Trendy"
+
+#: admin/class-price-wo-vat-admin.php:56
+msgid ""
+"Price Without VAT, New Badge, Discount Badge and End Sale Date - Plugin "
+"settings"
+msgstr ""
+"Cena bez DPH, Štítek nové zboží, Štítek sleva a sleva končí - Nastavení "
+"pluginu"
+
+#: admin/class-price-wo-vat-admin.php:95
+msgid "Settings plugin functions"
+msgstr "Nastavení funkcí pluginu:"
+
+#: admin/class-price-wo-vat-admin.php:103
+msgid "Enable Price Without VAT ?"
+msgstr "Povolit cenu bez DPH ?"
+
+#: admin/class-price-wo-vat-admin.php:110
+msgid "Enable Sale Percent Badge ?"
+msgstr "Povolit zobrazení slevy v procentech ?"
+
+#: admin/class-price-wo-vat-admin.php:118
+msgid "Enable Amount and percentage of discounts ?"
+msgstr "Povolit částku a procento slevy ?"
+
+#: admin/class-price-wo-vat-admin.php:125
+msgid "Enable New Products Badge ?"
+msgstr "Povolit štítek Nový produkt'?"
+
+#: admin/class-price-wo-vat-admin.php:132
+msgid "Days for New Product Badge ?"
+msgstr "Počet dnů, kdy se má zobrazovat štítek nový produkt"
+
+#: admin/class-price-wo-vat-admin.php:149
+msgid "Settings frontend CSS"
+msgstr "Nastavení CSS pro frontend"
+
+#: admin/class-price-wo-vat-admin.php:157
+msgid "CSS rules for Price Without VAT."
+msgstr "CSS pravidla pro Cena bez DPH"
+
+#: admin/class-price-wo-vat-admin.php:196
+#: admin/class-price-wo-vat-admin.php:205
+#: admin/class-price-wo-vat-admin.php:213
+#: admin/class-price-wo-vat-admin.php:221
+#: admin/class-price-wo-vat-admin.php:239
+msgid "Sample from frontend:  "
+msgstr "Příklad z frontendu:"
+
+#: admin/class-price-wo-vat-admin.php:196
+#: admin/class-price-wo-vat-admin.php:239
+msgid "without 21% VAT"
+msgstr "bez 21% DPH"
+
+#: admin/class-price-wo-vat-admin.php:205
+#: admin/class-price-wo-vat-admin.php:221
+msgid "Click to enlarge:  "
+msgstr "Klikněte pro zvětšení"
+
+#: admin/class-price-wo-vat-admin.php:205
+#: admin/class-price-wo-vat-admin.php:221
+msgid "Price Without VAT"
+msgstr "Cena bez DPH"
+
+#: admin/class-price-wo-vat-admin.php:213
+msgid "You will Save:  "
+msgstr "Ušetříte:"
+
+#: admin/class-price-wo-vat-admin.php:213
+msgid "with 21% VAT"
+msgstr "s 21% DPH"
+
+#: admin/class-price-wo-vat-admin.php:228
+#: admin/class-price-wo-vat-admin.php:242
+msgid "Default: "
+msgstr "Výchozí:"
+
+#: admin/class-price-wo-vat-admin.php:248
+msgid "Here you can activate or deactivate some plugin functions."
+msgstr "Zde můžete aktivovat, nebo deaktivovat funkce pluginu."
+
+#: admin/class-price-wo-vat-admin.php:252
+msgid "Here you can setting some CSS rules for woocommerce frontend."
+msgstr "Zde můžete nastavit CSS pravidla pro frontend"
+
+#: price-wo-vat.php:68
+msgid "New Trends"
+msgstr "Nové Trendy"
+
+#: price-wo-vat.php:73
+msgid "Mainpage for setting plugins from New Trends"
+msgstr "Rozcestník pro nastavení pluginů Nové Trendy"
+
+#: price-wo-vat.php:81
+msgid ""
+"Plugin Price Without VAT allow show price without VAT, Discount Badge in "
+"percent and amount, New product Badge and also show End Sale date "
+msgstr ""
+"Plugin zobrazuje cenu bez DPH, Štítek SLEVA v procentech a částkách slevy, "
+"štítek NOVÝ a také datum konce slevy."
+
+#: price-wo-vat.php:188
+msgid "Out of stock"
+msgstr "Není skladem"
+
+#: price-wo-vat.php:240
+msgid "NOVÉ"
+msgstr "NOVÉ"
+
+#: price-wo-vat.php:253
+msgid "Akce končí: "
+msgstr "Akce končí: "
+
+#. Plugin Name of the plugin/theme
+msgid "Cena bez DPH a konec slevy v detailu produktu"
+msgstr "Cena bez DPH a konec slevy v detailu produktu"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://webstudionovetrendy.eu/"
+msgstr "http://webstudionovetrendy.eu/"
+
+#. Description of the plugin/theme
+msgid "Zobrazí cenu bez DPH a konec akce pod SKU v detailu produktu"
+msgstr "Zobrazí cenu bez DPH a konec akce pod SKU v detailu produktu"
+
+#. Author of the plugin/theme
+msgid "Webstudio Nove Trendy"
+msgstr "Webstudio Nové Trendy"
