@@ -3,7 +3,7 @@
 * Plugin Name: Cena bez DPH a konec slevy v detailu produktu
 * Plugin URI: http://webstudionovetrendy.eu/
 * Description: Zobrazí cenu bez DPH a konec akce pod SKU v detailu produktu
-* Version: 160523
+* Version: 161128
 * Author: Webstudio Nove Trendy
 * Author URI: http://webstudionovetrendy.eu/
 * License: GPL2
