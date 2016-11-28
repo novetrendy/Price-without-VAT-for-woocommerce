@@ -135,10 +135,10 @@ if ( get_option('nt_price_wo_vat')['pwovat_support'] == 1) {
 
         if ( !empty ($nt_standard_price) && !empty ($nt_action_price)){
 
-        echo '<div style="' .get_option('nt_css_price_wo_vat')['css_pwovat']. '"><strong>' . number_format($product->get_price_excluding_tax(), 0, ',', '.') . ' '.nt_currency_symbol().'</strong> bez '.nt_VAT_rate(). ' DPH</div>';
+        echo '<div style="' .get_option('nt_css_price_wo_vat')['css_pwovat']. '"><strong>' . number_format($product->get_price_excluding_tax(), 2, ',', '.') . ' '.nt_currency_symbol().'</strong> bez '.nt_VAT_rate(). ' DPH</div>';
         }
         elseif (empty ($nt_action_price)){
-        echo '<div style="' .get_option('nt_css_price_wo_vat')['css_pwovat'].'margin:0px 0px 15px;"><strong>' . number_format($product->get_price_excluding_tax(), 0, ',', '.') . ' '.nt_currency_symbol().'</strong> bez '.nt_VAT_rate(). ' DPH</div>';
+        echo '<div style="' .get_option('nt_css_price_wo_vat')['css_pwovat'].'margin:0px 0px 15px;"><strong>' . number_format($product->get_price_excluding_tax(), 2, ',', '.') . ' '.nt_currency_symbol().'</strong> bez '.nt_VAT_rate(). ' DPH</div>';
         }
     }}
     add_action( 'woocommerce_single_product_summary', 'nt_price_without_vat', 12 );
