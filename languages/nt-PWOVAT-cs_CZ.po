@@ -1,15 +1,15 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Cena bez DPH a konec slevy v detailu produktu\n"
-"POT-Creation-Date: 2016-11-21 08:22+0100\n"
-"PO-Revision-Date: 2016-11-21 08:30+0100\n"
+"POT-Creation-Date: 2016-11-28 22:33+0100\n"
+"PO-Revision-Date: 2016-11-28 22:33+0100\n"
 "Last-Translator: Novetrendy <info@novetrendy.eu>\n"
 "Language-Team: Novetrendy <info@novetrendy.eu>\n"
 "Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.8\n"
+"X-Generator: Poedit 1.8.10\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-WPHeader: price-wo-vat.php\n"
 "Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
@@ -25,11 +25,11 @@ msgid "Settings Price Without VAT, New Badge, Discount Badge and End Sale Date"
 msgstr ""
 "Nastavení - Cena bez DPH, Štítek nové zboží, Štítek sleva a sleva končí"
 
-#: admin/class-price-wo-vat-admin.php:21 price-wo-vat.php:81
+#: admin/class-price-wo-vat-admin.php:21 price-wo-vat.php:72
 msgid "Price Without VAT, New Badge, Discount Badge and End Sale Date"
 msgstr "Cena bez DPH, Štítek nové zboží, Štítek sleva a sleva končí"
 
-#: admin/class-price-wo-vat-admin.php:55 price-wo-vat.php:74
+#: admin/class-price-wo-vat-admin.php:55 price-wo-vat.php:65
 msgid "WebStudio New Trends"
 msgstr "Webstudio Nové Trendy"
 
@@ -117,15 +117,15 @@ msgstr "Zde můžete aktivovat, nebo deaktivovat funkce pluginu."
 msgid "Here you can setting some CSS rules for woocommerce frontend."
 msgstr "Zde můžete nastavit CSS pravidla pro frontend"
 
-#: price-wo-vat.php:68
+#: price-wo-vat.php:59
 msgid "New Trends"
 msgstr "Nové Trendy"
 
-#: price-wo-vat.php:73
+#: price-wo-vat.php:64
 msgid "Mainpage for setting plugins from New Trends"
 msgstr "Rozcestník pro nastavení pluginů Nové Trendy"
 
-#: price-wo-vat.php:81
+#: price-wo-vat.php:72
 msgid ""
 "Plugin Price Without VAT allow show price without VAT, Discount Badge in "
 "percent and amount, New product Badge and also show End Sale date "
@@ -133,15 +133,24 @@ msgstr ""
 "Plugin zobrazuje cenu bez DPH, Štítek SLEVA v procentech a částkách slevy, "
 "štítek NOVÝ a také datum konce slevy."
 
-#: price-wo-vat.php:188
+#: price-wo-vat.php:138 price-wo-vat.php:141
+msgid "without"
+msgstr "bez"
+
+#: price-wo-vat.php:138 price-wo-vat.php:141
+#, fuzzy
+msgid "VAT"
+msgstr "DPH"
+
+#: price-wo-vat.php:179
 msgid "Out of stock"
 msgstr "Není skladem"
 
-#: price-wo-vat.php:240
+#: price-wo-vat.php:231
 msgid "NOVÉ"
 msgstr "NOVÉ"
 
-#: price-wo-vat.php:253
+#: price-wo-vat.php:244
 msgid "Akce končí: "
 msgstr "Akce končí: "
 
