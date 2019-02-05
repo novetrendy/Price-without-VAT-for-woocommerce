@@ -120,9 +120,9 @@ if( is_admin() )
         return $nt_VAT;
  }
 /*****************************************************************************************/
-
+$nt_price_wo_vat_option = get_option('nt_price_wo_vat');
 /** Show price without VAT bellow SKU in product details */
-if ( get_option('nt_price_wo_vat')['pwovat_support'] == 1) {
+if (isset($nt_price_wo_vat_option['pwovat_support']) && ($nt_price_wo_vat_option['pwovat_support']== 1)) {
     function nt_price_without_vat()
     {   global $product;
         if( $product->is_type( 'simple' )){
