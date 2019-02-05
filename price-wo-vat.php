@@ -147,7 +147,7 @@ if (isset($nt_price_wo_vat_option['pwovat_support']) && ($nt_price_wo_vat_option
 
 /** Zobrazí výši slevy pod SKU v detailu produktu */
 
-    if ( get_option('nt_price_wo_vat')['badge_sleva'] == 1) {
+    if (isset($nt_price_wo_vat_option['badge_sleva']) && ($nt_price_wo_vat_option['badge_sleva']== 1)) {
     function sleva()
     {
         global $product;
@@ -195,7 +195,7 @@ function load_nt_price_without_vat( $variations ) {
 
 
 /** Zobrazí v badge produktu výši slevy v % */
-if ( get_option('nt_price_wo_vat')['badge_sleva'] == 1) {
+if (isset($nt_price_wo_vat_option['badge_sleva']) && ($nt_price_wo_vat_option['badge_sleva']== 1)) {
     function badge_sleva( $badge ) {
     if ( !empty( $badge ) ) {
         $nt_action_price = nt_action_price();
@@ -221,7 +221,7 @@ add_filter( 'woocommerce_sale_flash', 'badge_sleva' );
 
 /** New products Badge */
 
-if ( get_option('nt_price_wo_vat')['new_products_badge'] == 1) {
+if (isset($nt_price_wo_vat_option['new_products_badge']) && ($nt_price_wo_vat_option['new_products_badge']== 1)) {
         function new_badge($badge) {
 
 				$postdate 		= get_the_time( 'Y-m-d' );			// Post date
