@@ -86,7 +86,7 @@ if( is_admin() )
 
 /** Global functions */
     function nt_currency_symbol(){return get_woocommerce_currency_symbol();}
-    function nt_action_price(){global $product;return $product->sale_price;}
+    function nt_action_price(){global $product;return $product->get_sale_price();}
     function nt_action_price_variable(){global $product;
     if($product->product_type=='variable') {
     #Step 1: Get product variations
@@ -101,12 +101,12 @@ if( is_admin() )
     #Step 3: Create the variable product object
     $nt_variable_product= new WC_Product_Variation( $variation_id );
     #Step 4: You have the data. Have fun :)
-    $sales_price = $nt_variable_product ->sale_price;
+    $sales_price = $nt_variable_product ->get_sale_price();
     return $sales_price;
     }};
     function nt_standard_price_variable(){global $product; if($product->product_type=='variable') { $available_variations = $product->get_available_variations();$i= 0;foreach ($available_variations as $var_id) {$variation_id = $var_id['variation_id'];$i++;}
-    $nt_variable_product= new WC_Product_Variation( $variation_id );$regular_price = $nt_variable_product ->regular_price;return $regular_price;} }
-    function nt_standard_price(){global $product;return $product->regular_price;}
+    $nt_variable_product= new WC_Product_Variation( $variation_id );$regular_price = $nt_variable_product ->get_regular_price();return $regular_price;} }
+    function nt_standard_price(){global $product;return $product->get_regular_price();}
     function nt_spare(){return nt_standard_price() - nt_action_price();}
     function nt_spare_percent(){return number_format(nt_spare()/(nt_standard_price()/100), 0, ',', '.');}
     function nt_VAT_rate(){global $product;
