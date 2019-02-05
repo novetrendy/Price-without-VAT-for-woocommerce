@@ -3,7 +3,7 @@
 * Plugin Name: Cena bez DPH a konec slevy v detailu produktu
 * Plugin URI: http://webstudionovetrendy.eu/
 * Description: Zobrazí cenu bez DPH a konec akce pod SKU v detailu produktu
-* Version: 161128
+* Version: 190205
 * Author: Webstudio Nove Trendy
 * Author URI: http://webstudionovetrendy.eu/
 * License: GPL2
@@ -11,6 +11,7 @@
 */
 /* 5.5.2016 - Přidána podpora pro varianty produktů
 * 7.5.2016 - Opravena chyba pokud není zadána u produktu cena - dělení nulou - division zero error
+* 5.2.2019 - Opraveny deprecated funkce z WooCommerce, undefine index aj.
 */
 
 defined( 'ABSPATH' ) or die( 'HAHAHA' );
@@ -88,7 +89,7 @@ if( is_admin() )
     function nt_currency_symbol(){return get_woocommerce_currency_symbol();}
     function nt_action_price(){global $product;return $product->get_sale_price();}
     function nt_action_price_variable(){global $product;
-    if($product->product_type=='variable') {
+    if($product->is_type('variable')) {
     #Step 1: Get product variations
     $available_variations = $product->get_available_variations();
     #Step 2: Get product variation id
@@ -104,7 +105,7 @@ if( is_admin() )
     $sales_price = $nt_variable_product ->get_sale_price();
     return $sales_price;
     }};
-    function nt_standard_price_variable(){global $product; if($product->product_type=='variable') { $available_variations = $product->get_available_variations();$i= 0;foreach ($available_variations as $var_id) {$variation_id = $var_id['variation_id'];$i++;}
+    function nt_standard_price_variable(){global $product; if($product->is_type('variable')) { $available_variations = $product->get_available_variations();$i= 0;foreach ($available_variations as $var_id) {$variation_id = $var_id['variation_id'];$i++;}
     $nt_variable_product= new WC_Product_Variation( $variation_id );$regular_price = $nt_variable_product ->get_regular_price();return $regular_price;} }
     function nt_standard_price(){global $product;return $product->get_regular_price();}
     function nt_spare(){return nt_standard_price() - nt_action_price();}
